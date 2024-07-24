@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    image: robin1024/protobuf-decoder
+    ports:
+     - "8080:5173"
